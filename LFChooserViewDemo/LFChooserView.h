@@ -12,9 +12,10 @@
 @end
 
 @interface LFChooserView : UIView<UITabBarDelegate>
-//点击事件
-//- (void)setClickedAction:(void(^)(NSInteger indexOfDataAndButtons,NSIndexPath *indexPath))action;
+@property (nonatomic,copy) NSArray *cellTitles;
+
 @property (nonatomic,strong) id <LFChooserViewDelegate> delegate;
+
 //创建选择器对象
 + (instancetype)shareChooserViewWith:(CGFloat)y;
 

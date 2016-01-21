@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D363631C50781000CB7C58 /* LFChooserViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D363611C50781000CB7C58 /* LFChooserViewCell.m */; };
+		03D363641C50781000CB7C58 /* LFChooserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D363621C50781000CB7C58 /* LFChooserViewCell.xib */; };
+		03D363661C507AB400CB7C58 /* draw_ellipse_16px_1066243_easyicon.net.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D363651C507AB400CB7C58 /* draw_ellipse_16px_1066243_easyicon.net.png */; };
 		03E2DCC01C4F32AA007A9370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2DCBF1C4F32AA007A9370 /* main.m */; };
 		03E2DCC31C4F32AA007A9370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2DCC21C4F32AA007A9370 /* AppDelegate.m */; };
 		03E2DCC61C4F32AA007A9370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2DCC51C4F32AA007A9370 /* ViewController.m */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D363601C50781000CB7C58 /* LFChooserViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFChooserViewCell.h; sourceTree = "<group>"; };
+		03D363611C50781000CB7C58 /* LFChooserViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFChooserViewCell.m; sourceTree = "<group>"; };
+		03D363621C50781000CB7C58 /* LFChooserViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFChooserViewCell.xib; sourceTree = "<group>"; };
+		03D363651C507AB400CB7C58 /* draw_ellipse_16px_1066243_easyicon.net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draw_ellipse_16px_1066243_easyicon.net.png; sourceTree = "<group>"; };
 		03E2DCBB1C4F32AA007A9370 /* LFChooserViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFChooserViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E2DCBF1C4F32AA007A9370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03E2DCC11C4F32AA007A9370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +91,10 @@
 		03E2DCB21C4F32A9007A9370 = {
 			isa = PBXGroup;
 			children = (
+				03D363601C50781000CB7C58 /* LFChooserViewCell.h */,
+				03D363611C50781000CB7C58 /* LFChooserViewCell.m */,
+				03D363621C50781000CB7C58 /* LFChooserViewCell.xib */,
+				03D363651C507AB400CB7C58 /* draw_ellipse_16px_1066243_easyicon.net.png */,
 				03E2DCF41C4F3330007A9370 /* LFChooserView.h */,
 				03E2DCF51C4F3330007A9370 /* LFChooserView.m */,
 				03E2DCBD1C4F32AA007A9370 /* LFChooserViewDemo */,
@@ -249,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03E2DCCE1C4F32AA007A9370 /* LaunchScreen.storyboard in Resources */,
+				03D363661C507AB400CB7C58 /* draw_ellipse_16px_1066243_easyicon.net.png in Resources */,
 				03E2DCCB1C4F32AA007A9370 /* Assets.xcassets in Resources */,
+				03D363641C50781000CB7C58 /* LFChooserViewCell.xib in Resources */,
 				03E2DCC91C4F32AA007A9370 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +291,7 @@
 				03E2DCC61C4F32AA007A9370 /* ViewController.m in Sources */,
 				03E2DCC31C4F32AA007A9370 /* AppDelegate.m in Sources */,
 				03E2DCF61C4F3330007A9370 /* LFChooserView.m in Sources */,
+				03D363631C50781000CB7C58 /* LFChooserViewCell.m in Sources */,
 				03E2DCC01C4F32AA007A9370 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +518,7 @@
 				03E2DCEA1C4F32AA007A9370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03E2DCEB1C4F32AA007A9370 /* Build configuration list for PBXNativeTarget "LFChooserViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +527,7 @@
 				03E2DCED1C4F32AA007A9370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03E2DCEE1C4F32AA007A9370 /* Build configuration list for PBXNativeTarget "LFChooserViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +536,7 @@
 				03E2DCF01C4F32AA007A9370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
